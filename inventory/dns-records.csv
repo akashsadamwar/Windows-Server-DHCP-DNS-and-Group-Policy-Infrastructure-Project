@@ -1,0 +1,6 @@
+Name,Type,Zone,IPAddress,Target,Notes
+dc01,A,contoso.local,10.10.10.10,,Domain controller
+fs01,A,contoso.local,10.10.10.20,,File server
+intranet,A,contoso.local,10.10.10.25,,Internal web application
+files,CNAME,contoso.local,,fs01.contoso.local,Alias for file server
+

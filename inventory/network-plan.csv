@@ -1,0 +1,6 @@
+DeviceName,Role,IPAddress,SubnetMask,Gateway,DNS,Notes
+DC01,Domain Controller DNS DHCP,10.10.10.10,255.255.255.0,10.10.10.1,10.10.10.10,Static IP required
+FS01,File Server,10.10.10.20,255.255.255.0,10.10.10.1,10.10.10.10,Hosts shared folders
+PRN01,Network Printer,10.10.10.30,255.255.255.0,10.10.10.1,10.10.10.10,DHCP reservation recommended
+PC01,Test Workstation,DHCP,255.255.255.0,10.10.10.1,10.10.10.10,Used for testing GPO and DHCP
+

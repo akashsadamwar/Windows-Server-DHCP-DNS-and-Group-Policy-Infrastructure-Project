@@ -1,0 +1,14 @@
+# PowerShell and report output
+*.log
+*.tmp
+*.bak
+validation-report-*.txt
+backups/
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/

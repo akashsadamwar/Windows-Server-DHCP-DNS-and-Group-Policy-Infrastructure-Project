@@ -1,0 +1,12 @@
+GPOName,Category,Setting,RecommendedValue,Reason
+CONTOSO - Computer Security Baseline,Account Policy,Password history,24 remembered passwords,Prevents password reuse
+CONTOSO - Computer Security Baseline,Account Policy,Minimum password length,14 characters,Improves password strength
+CONTOSO - Computer Security Baseline,Account Policy,Account lockout threshold,5 invalid attempts,Reduces brute force risk
+CONTOSO - Computer Security Baseline,Security Options,Rename local Administrator account,Enabled,Reduces predictable admin targeting
+CONTOSO - Computer Security Baseline,Firewall,Windows Defender Firewall,Enabled for all profiles,Protects endpoints
+CONTOSO - Computer Security Baseline,Audit Policy,Logon auditing,Success and failure,Supports incident review
+CONTOSO - Workstation Configuration,Windows Update,Automatic updates,Enabled,Keeps clients patched
+CONTOSO - Workstation Configuration,Control Panel,Restrict access to Control Panel,Enabled for standard users,Reduces accidental misconfiguration
+CONTOSO - User Environment,Drive Mapping,Shared drive S:,\\FS01\Shared,Standardizes access to department files
+CONTOSO - User Environment,Desktop,Remove access to command prompt,Optional,Use only where operationally appropriate
+
